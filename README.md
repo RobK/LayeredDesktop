@@ -1,0 +1,1 @@
+A implementation of Gabriel Radic's Layer Desktop idea. This is a work in progress and does not yet work!
