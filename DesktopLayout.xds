@@ -1,0 +1,56 @@
+{
+    "name": "DesktopLayout",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "C:/workspaces/DesktopLayout",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 588,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "e2a3337d-e42d-4478-a2bb-4ee13aa5457b": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "8c0fccd7-a53e-4f35-a0bd-d601678130dc": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "1a3ff210-6795-419d-a03d-9524717fda60": {
+            "paths": [
+                "metadata/view/LayerPanel",
+                "app/view/override/LayerPanel.js",
+                "app/view/LayerPanel.js"
+            ],
+            "className": "LayerPanel"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "e2a3337d-e42d-4478-a2bb-4ee13aa5457b",
+            "1a3ff210-6795-419d-a03d-9524717fda60"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "8c0fccd7-a53e-4f35-a0bd-d601678130dc"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

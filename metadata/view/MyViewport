@@ -1,0 +1,112 @@
+{
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyViewport",
+        "designer|initialView": true,
+        "layout": "border"
+    },
+    "id": "ExtBox1-ext-gen2057",
+    "designerId": "e2a3337d-e42d-4478-a2bb-4ee13aa5457b",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "west",
+                "designer|userClassName": "MyPanel",
+                "width": 150,
+                "title": "My Panel"
+            },
+            "designerId": "ddd77a24-c9a9-4cb1-be7a-98912cf64b10"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "designer|userClassName": "MyContainer",
+                "layout": "border"
+            },
+            "designerId": "c9355621-4172-44b4-a984-d33e56145e39",
+            "cn": [
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|region": "center",
+                        "designer|userClassName": "MyPanel6",
+                        "title": null
+                    },
+                    "designerId": "3be01248-3a31-4959-bf5a-f3c46671bed5",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|snapToGrid": 10,
+                                "designer|userClassName": "MyPanel1",
+                                "height": 585,
+                                "width": 670,
+                                "layout": "absolute",
+                                "title": "Your Desktop"
+                            },
+                            "designerId": "3a03bded-9f25-4c98-8e5b-42a7c88841cf",
+                            "cn": [
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "autoScroll": false,
+                                        "layout|x": 80,
+                                        "layout|y": 120
+                                    },
+                                    "designerId": "a5ba6abe-8736-4949-a030-236c95789363",
+                                    "masterInstanceId": "ExtBox1-ext-gen19722"
+                                },
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|x": 30,
+                                        "layout|y": 250
+                                    },
+                                    "designerId": "09ef111d-086d-4189-99c5-28c8e00df5c0",
+                                    "masterInstanceId": "ExtBox1-ext-gen19722"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

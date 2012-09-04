@@ -1,0 +1,22 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LayerPanel",
+        "designer|userAlias": "layer",
+        "draggable": true,
+        "height": 190,
+        "width": 290,
+        "resizable": true,
+        "title": null
+    },
+    "configAlternates": {
+        "resizable": "boolean"
+    },
+    "id": "ExtBox1-ext-gen19722",
+    "designerId": "1a3ff210-6795-419d-a03d-9524717fda60"
+}
